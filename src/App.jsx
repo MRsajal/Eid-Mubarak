@@ -25,7 +25,11 @@ function App() {
         <button onClick={copyToClipboard} className="flex items-center gap-1">
           Bkash Number
         </button>
-        {copied && <span className="text-green-500">Copied!</span>}
+        {copied && (
+          <span className="text-green-500">
+            Copied! Sajal's Number (01740363401)
+          </span>
+        )}
       </div>
       <div style={{ width: "50%" }}>
         <img
