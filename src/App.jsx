@@ -27,8 +27,12 @@ function App() {
         </button>
         {copied && <span className="text-green-500">Copied!</span>}
       </div>
-      <div>
-        <img src="/download (2).jfif" alt="Eid Mubarak" />
+      <div style={{ width: "50%" }}>
+        <img
+          src={`${import.meta.env.BASE_URL}EidMubarak.jpg`}
+          alt="Eid Mubarak"
+          width="100%"
+        />
       </div>
     </div>
   );
