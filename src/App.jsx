@@ -29,7 +29,7 @@ function App() {
       </div>
       <div style={{ width: "50%" }}>
         <img
-          src={`${import.meta.env.BASE_URL}EidMubarak.jpg`}
+          src={`/Eid-Mubarak/eidmubarak.jpg`}
           alt="Eid Mubarak"
           width="100%"
         />
